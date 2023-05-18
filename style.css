@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -73,7 +75,6 @@ h1 {
 
 .info {
     height: 400px;
-    border-bottom: 2px solid black;
 }
 
 h3 {
@@ -98,4 +99,34 @@ h3 {
 
 .pics div {
     flex: 0 1 200px;
+}
+
+.quote {
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote-text {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+.quote-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    max-width: 700px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 600;
 }
