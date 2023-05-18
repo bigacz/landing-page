@@ -57,8 +57,8 @@ h1 {
 .signup {
     background-color: #3882F6;
     border: 0;
-    padding: 10px;
-    border-radius: 7px;
+    padding: 10px 20px;
+    border-radius: 10px;
     color:#F9FAF8;
     font-weight: bold;
     align-self: flex-start;
@@ -89,7 +89,7 @@ h3 {
     width: 200px;
     height: 200px;
     border-radius: 7px;
-    border: blue solid 2px;
+    border: rgb(105, 105, 241) solid 3px;
 }
 .pics {
     display: flex;
@@ -129,4 +129,39 @@ h3 {
     align-self: flex-end;
     font-size: 20px;
     font-weight: 600;
+    color:rgb(54, 53, 53);
+}
+
+.call {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.call-box {
+    background-color: #3882F6;
+    padding: 30px 80px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.call h4 {
+    font-size: 20px;
+}
+
+.call p {
+    font-size: 14px;
+}
+
+.call button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+
 }
